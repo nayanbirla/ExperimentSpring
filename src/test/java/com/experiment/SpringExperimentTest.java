@@ -16,7 +16,7 @@ public class SpringExperimentTest {
 
     @Test
     public void contextLoads() {
-        String someValue="Nayan";
+        String someValue="Nayan Pipeline";
         Supplier<String> supplier = () -> "Message: " + someValue;
         logger.debug(supplier);
         assertEquals(true, true);
